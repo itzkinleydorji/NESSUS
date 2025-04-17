@@ -26,7 +26,8 @@
 
 - Upload the .nessus file you just downloaded
 
-- Create a scan using this imported policy
-
+- Create a new scan using this imported policy
+- Look for your imported policy under a category like:
+     "User-Defined"
 - Launch it against your web server
 ##### Thank You --- Kinley Dorji

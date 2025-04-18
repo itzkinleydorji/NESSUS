@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Policy>
-  <policyName>Network VA - aspnet.testinvicti.com</policyName>
+  <policyName>Network VA Policy</policyName>
   <Preferences>
     <serverPreferences>
       <preference>

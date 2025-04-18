@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<Policy>
+  <policyName>Network VA - aspnet.testinvicti.com</policyName>
+  <Preferences>
+    <serverPreferences>
+      <preference>
+        <name>max_hosts</name>
+        <value>10</value>
+      </preference>
+      <preference>
+        <name>max_checks</name>
+        <value>4</value>
+      </preference>
+      <preference>
+        <name>port_range</name>
+        <value>default</value>
+      </preference>
+      <preference>
+        <name>ping_the_remote_host</name>
+        <value>yes</value>
+      </preference>
+      <preference>
+        <name>fast_network_discovery</name>
+        <value>no</value>
+      </preference>
+      <preference>
+        <name>tcp_scanner</name>
+        <value>yes</value>
+      </preference>
+      <preference>
+        <name>syn_scanner</name>
+        <value>yes</value>
+      </preference>
+      <preference>
+        <name>service_detection</name>
+        <value>yes</value>
+      </preference>
+      <preference>
+        <name>os_fingerprint</name>
+        <value>yes</value>
+      </preference>
+    </serverPreferences>
+    <pluginPreferences />
+  </Preferences>
+  <Families>
+    <familyItem>
+      <FamilyName>Port scanners</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Service detection</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>General</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Denial of Service</FamilyName>
+      <Status>disabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Web application tests</FamilyName>
+      <Status>disabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Windows</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Linux</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+    <familyItem>
+      <FamilyName>Firewalls</FamilyName>
+      <Status>enabled</Status>
+    </familyItem>
+  </Families>
+</Policy>
